@@ -40,6 +40,7 @@ The objective of this project is to:
 
 
 **Description of the data**
+
 The dataset contains the following fields:
 - `price`
 - `model_year`
