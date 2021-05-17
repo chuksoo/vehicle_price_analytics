@@ -82,14 +82,7 @@ The dataset contains the following fields:
         </ul>
     <li>Make calculations and add them to the table</li>
     <li>Carry out exploratory data analysis</li>
-    <li>Answer the business question</li>
-        <ul>
-            <li>Is there a connection between ...?</li>
-            <li>Is there a connection between ...?</li>
-            <li>Is there a connection between ...?</li>
-            <li>How do different ... affect car price?</li>
-        </ul>
-    <li>Conclusion</li>
+    <li>Overall Conclusion</li>
 </ol>
 
 <div id="executive_summary">
