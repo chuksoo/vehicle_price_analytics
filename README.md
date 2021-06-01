@@ -66,7 +66,7 @@ The dataset contains the following fields:
     <li>Numpy </li>
     <li>Matplotlib</li>
     <li>Seaborn</li>
-    <li>ggplot2</li>
+    <li>Plotly</li>
 </ul>
 
 <div id="structure_notebook">
@@ -78,7 +78,6 @@ The dataset contains the following fields:
         <ul>
             <li>Processing missing values</li>
             <li>Data type replacement</li>
-            <li>Processing duplicates</li>
         </ul>
     <li>Make calculations and add them to the table</li>
     <li>Carry out exploratory data analysis</li>
@@ -91,9 +90,17 @@ The dataset contains the following fields:
 
 **Introduction**
 
+As a Data Scientists working for a car listing site, how do you determine the factors that influence vehicle price. The answer is to look at the data. In this [project](https://github.com/chuksoo/vehicle_price_analytics), a car listing company - Crankshaft List publishes free advertisements everyday, and is hoping you use your analytic knowledge to study data collected over the last few years to assist with business decision making. The goal is to determine which factors influence the price of a vehicle.
+
 **Methods**
 
+I first inspected the data using the [pandas](https://pandas.pydata.org/) library to obtain general information about the data. I processed the missing values, changed data type, and converted data to the right type. I made calculations and added new features to the data. I investigated the following parametesr - price, vehicle's age when the ad was placed, mileage, number of cylinders, and condition. I plotted histogram for each parameters created. Prior to analyzing the data, I determined the upper limits of outliers and removed them. I used the filtered data to plot new histograms and compared them with the earlier histogram. In analyzing the data, I studied how many days advertisements were displayed (days_listed). I plotted new histogram and calculated the statistics of the data in order to describe the typical lifetime of an ad. I then determine when ads were removed quickly, and when they were listed for an abnormally long time. 
+
+I then analyze the number of ads and the average price for each type of vehicle. I studied whether the price depends on age, mileage, condition, transmission type, and color. I plotted box-and-whisker charts, and create scatterplots for the rest using the [Matplotlib](https://matplotlib.org/) and [Seaborn](https://seaborn.pydata.org/) libraries. Analysis the data was important in answering some of the business needs.
+
 **Key Findings**
+
+
 
 **Deployment and Application**
 
